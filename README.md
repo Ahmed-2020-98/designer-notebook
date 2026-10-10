@@ -4,8 +4,9 @@
 
 ## النشر
 
-الموقع يُنشر تلقائياً على GitHub Pages مع كل push على `main` عبر `.github/workflows/deploy.yml`
-(الـ workflow يضبط `BASE_PATH` باسم الريبو).
+الموقع يُنشر تلقائياً على GitHub Pages مع كل push على `main` عبر `.github/workflows/deploy.yml`،
+على الدومين https://ui-ux.codexacademy.online/ (سجل CNAME من `ui-ux` إلى `<user>.github.io`).
+للنشر تحت مسار فرعي بدل دومين، اضبط `BASE_PATH` في خطوة البناء.
 
 ## التشغيل
 
